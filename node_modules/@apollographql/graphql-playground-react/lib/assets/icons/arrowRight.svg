@@ -1,13 +1,1 @@
-<svg width="14px" height="11px" viewBox="-1 -1 14 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <path
-        d="M5,8.79825579 L5,-1.79402089"
-        id="Stroke-3"
-        stroke="#FFFFFF"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        fill="none"
-        transform="translate(5.750000, 3.502117) rotate(-90.000000) translate(-5.750000, -3.502117) "
-    ></path>
-    <polyline id="Stroke-5" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none" transform="translate(9.868295, 4.333992) rotate(-90.000000) translate(-9.868295, -4.333992) " points="14.2022868 2.16699605 9.86829475 6.50098814 5.53430265 2.16699605"></polyline>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="11" version="1.1" viewBox="-1 -1 14 11"><path id="Stroke-3" fill="none" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5,8.79825579 L5,-1.79402089" transform="translate(5.750000, 3.502117) rotate(-90.000000) translate(-5.750000, -3.502117)"/><polyline id="Stroke-5" fill="none" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" points="14.202 2.167 9.868 6.501 5.534 2.167" transform="translate(9.868295, 4.333992) rotate(-90.000000) translate(-9.868295, -4.333992)"/></svg>
