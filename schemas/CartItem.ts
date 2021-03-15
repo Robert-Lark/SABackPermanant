@@ -1,4 +1,4 @@
-//THIS IS WHERE THE USER CAN SUBMIT REVIEWS
+
 
 import {list} from "@keystone-next/keystone/schema";
 import {integer, relationship, select, text} from "@keystone-next/fields";
