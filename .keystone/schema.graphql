@@ -669,6 +669,7 @@ input OrderItemRelateToManyInput {
 type Order {
   id: ID!
   label: String
+  cost: String
   total: Int
   items(where: OrderItemWhereInput, search: String, sortBy: [SortOrderItemsBy!], orderBy: String, first: Int, skip: Int): [OrderItem!]!
   _itemsMeta(where: OrderItemWhereInput, search: String, sortBy: [SortOrderItemsBy!], orderBy: String, first: Int, skip: Int): _QueryMeta

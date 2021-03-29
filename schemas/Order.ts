@@ -16,6 +16,12 @@ export const Order = list({
         return `order ID ${item.id}`;
       }
     }),
+    cost: virtual({
+      graphQLReturnType: "String",
+      resolver: function(item) {
+        return `order total ${formatMoney(item.total)}`;
+      }
+    }),
     total: integer(),
     items: relationship({ ref: 'OrderItem.order', many: true}),
     user: relationship({ref: 'User.orders'}),
