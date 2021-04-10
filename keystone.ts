@@ -14,6 +14,7 @@ import {ProductImage} from "./schemas/ProductImage";
 import {insertSeedData} from "./seed-data";
 import { sendPasswordResetEmail } from "./lib/mail";
 import {extendGraphqlSchema} from './mutations'
+import { permissionsList } from "./schemas/fields";
 //CONNECT DB
 const databaseURL = process.env.DATABASE_URL || "mongodb.com";
 
@@ -77,7 +78,7 @@ export default withAuth(
     },
     //SESSION VALUES
     session: withItemData(statelessSessions(sessionConfig), {
-      User: `id`,
+      User: `id name email role { ${permissionsList.join(' ')} }`,
     }),
   })
 );
